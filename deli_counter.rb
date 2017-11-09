@@ -25,7 +25,7 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
-    while i < queue.length
+    while i < queue.length-1
       new_string = "#{line_place}. #{queue[i]} "
       line_place+=1
       i+=1

@@ -28,7 +28,7 @@ def line(queue)
     while i < queue.length
       new_string = "#{line_place}. #{queue[i]} "
       line_place+=1
-      i++
+      i+=1
       return_string += new_string
     end
     puts return_string + final_item

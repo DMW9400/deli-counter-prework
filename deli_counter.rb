@@ -21,5 +21,5 @@ end
 def take_a_number(queue,current_person)
   queue.push(current_person)
   
-  
+
 end

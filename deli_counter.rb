@@ -5,5 +5,7 @@ def line(queue)
     return "The line is currently empty."
   else
     queue.each do |item|
-      new_string = 
+      new_string = "line_place. #{item}"
+      line_place+=1
+      
 end

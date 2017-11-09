@@ -24,10 +24,11 @@ def line(queue)
     puts "The line is currently empty."
   else
     while i < queue.length
-      new_string = "#{line_place}. #{item} "
+      new_string = "#{line_place}. #{queue[i]} "
       line_place+=1
-      return_string += new_string
       i++
+      return_string += new_string
+    
     end
     puts return_string
   end

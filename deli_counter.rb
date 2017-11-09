@@ -19,5 +19,6 @@ def line(queue)
 end
 
 def take_a_number(queue,current_person)
+  place = queue.length
   
 end

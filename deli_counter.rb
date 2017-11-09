@@ -9,5 +9,6 @@ def line(queue)
       line_place+=1
       return_string += new_string
     end
+  end
    return return_string
 end

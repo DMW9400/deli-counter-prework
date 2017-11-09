@@ -17,3 +17,6 @@ def line(queue)
     puts return_string + final_item
   end
 end
+
+def take_a_number(queue)
+  

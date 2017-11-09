@@ -29,5 +29,4 @@ def now_serving(queue)
     puts "The line is currently empty."
   else
   end
-
 end

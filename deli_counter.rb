@@ -5,5 +5,5 @@ def line(queue)
     return "The line is currently empty."
   else
     while
-    
+    new_string = 
 end

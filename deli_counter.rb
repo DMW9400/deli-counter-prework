@@ -4,6 +4,6 @@ def line(queue)
   return_string = "The line is currently: "
     return "The line is currently empty."
   else
-    while
-    new_string = 
+    queue.each do |item|
+      new_string = 
 end

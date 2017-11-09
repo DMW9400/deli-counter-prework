@@ -24,6 +24,8 @@ def take_a_number(queue,current_person)
   puts "Welcome, #{current_person}. You are number #{queue_place} in line."
 end
 
-def now_serving
-end
+def now_serving(queue)
+  if queue.length == 0
+    
 
+end

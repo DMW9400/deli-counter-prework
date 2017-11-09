@@ -30,7 +30,7 @@ def line(queue)
       i++
       return_string += new_string
     end
-    puts return_string
+    puts return_string + final_item
   end
   #  return return_string
 end

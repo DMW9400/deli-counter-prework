@@ -16,5 +16,4 @@ def line(queue)
     end
     puts return_string + final_item
   end
-  #  return return_string
 end

@@ -21,6 +21,7 @@ def line(queue)
   return_string = "The line is currently: "
   final_item_index = queue.length
   final_item = "#{final_item_index}. #{queue[-1]}"
+  
   if queue.length == 0
     puts "The line is currently empty."
   else

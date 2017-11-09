@@ -28,6 +28,6 @@ def now_serving(queue)
   if queue.length == 0
     puts "There is nobody waiting to be served!"
   else
-    queue.shift
+    puts "Currently serving " + queue.shift
   end
 end

@@ -19,6 +19,7 @@ def line(queue)
   line_place = 1
   i = 0
   return_string = "The line is currently: "
+  final_string = 
 
   if queue.length == 0
     puts "The line is currently empty."
@@ -28,7 +29,7 @@ def line(queue)
       line_place+=1
       i++
       return_string += new_string
-    
+      
     end
     puts return_string
   end

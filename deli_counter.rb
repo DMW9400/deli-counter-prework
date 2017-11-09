@@ -22,5 +22,4 @@ def take_a_number(queue,current_person)
   queue.push(current_person)
   queue_place = queue.length
   puts "Welcome, #{current_person}. You are number #{queue_place} in line."
-
 end

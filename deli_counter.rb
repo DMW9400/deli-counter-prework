@@ -8,4 +8,6 @@ def line(queue)
       new_string = "line_place. #{item}"
       line_place+=1
       return_string += new_string
+    end
+    return return_string
 end

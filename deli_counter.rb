@@ -23,10 +23,11 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
-    while queue.each do |item,-2|
+    while i < queue.length 
       new_string = "#{line_place}. #{item} "
       line_place+=1
       return_string += new_string
+      i++
     end
     puts return_string
   end

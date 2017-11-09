@@ -25,3 +25,5 @@ def take_a_number(queue,current_person)
 end
 
 def now_serving
+end
+

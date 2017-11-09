@@ -11,5 +11,5 @@ def line(queue)
       return_string += new_string
     end
   end
-   return return_string
+   puts return_string
 end
